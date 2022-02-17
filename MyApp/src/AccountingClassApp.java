@@ -76,11 +76,13 @@ public class AccountingClassApp {
 		a1.valueOfSupply = 10000.0;
 		a1.vatRate = 0.1;
 		a1.expenseRate = 0.3;
+		a1.print();
 		
 		Accounting a2 = new Accounting();
 		a2.valueOfSupply = 20000.0;
 		a2.vatRate = 0.05;
 		a2.expenseRate = 0.03;
+		a2.print();
 
 	}
 
